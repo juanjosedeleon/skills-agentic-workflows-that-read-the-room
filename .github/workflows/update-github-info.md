@@ -14,6 +14,7 @@ network:
     - defaults
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 tools:
   edit:
   web-fetch:
@@ -38,15 +39,17 @@ news summary fresh and practical.
 2. Fetch https://github.blog/latest/ and review the latest GitHub Blog posts.
 3. Fetch https://github.blog/changelog/ and review the most recent GitHub
    Changelog entries.
-4. Update `site/content/github-info.md` with a short, practical summary of
+4. Fetch https://awesome-copilot.github.com/workflows/ and review the latest
+   Awesome Copilot workflows.
+5. Update `site/content/github-info.md` with a short, practical summary of
    the most noteworthy recent items:
    - Keep summaries short and focused on helping developers learn GitHub faster.
-   - Mention the source (GitHub Blog or GitHub Changelog) for every item that
-     comes from those sites.
+   - Mention the source (GitHub Blog, GitHub Changelog, or Awesome Copilot
+     workflows) for every item that comes from those sites.
    - Preserve the existing structure and tone of the page; refresh the
      "Recent GitHub Blog and Changelog stories worth watching" content rather
      than rewriting unrelated sections.
-5. Open a pull request with your changes so Mona can review everything before
+6. Open a pull request with your changes so Mona can review everything before
    it goes live. Summarize what changed and why in the pull request body.
 
 Do not write directly to `main`; propose all changes through the pull request.
